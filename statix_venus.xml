@@ -8,7 +8,7 @@
     <project path="device/xiaomi/venus" name="platform_device_xiaomi_venus" remote="venus-dev" />
     <project path="device/xiaomi/sm8350-common" name="platform_device_xiaomi_sm8350-common" remote="venus-dev" />
     <!-- Google Camera mod -->
-    <project path="vendor/gcam" name="android_vendor_gcam" remote="stx-gitlab" />
+    <project path="vendor/gcam" name="android_vendor_gcam" remote="stx-gitlab" revision="tm-qpr2" />
     <!-- Hardware -->
     <project path="vendor/hardware/xiaomi" name="android_vendor_hardware_xiaomi" remote="statix" revision="tm" />
     <!-- Prebuilt kernel -->
