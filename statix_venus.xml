@@ -3,6 +3,7 @@
 
     <!-- Remotes -->
     <remote name="venus-dev" revision="udc" fetch="https://github.com/AOSP-for-venus/" />
+    <remote name="stx-gitlab" revision="udc" fetch="https://gitlab.com/StatiXOS" />
 
     <!-- Device trees -->
     <project path="device/xiaomi/venus" name="platform_device_xiaomi_venus" remote="venus-dev" />
