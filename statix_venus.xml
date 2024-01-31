@@ -11,7 +11,7 @@
     <!-- Google Camera mod -->
     <project path="vendor/gcam" name="android_vendor_gcam" remote="stx-gitlab" revision="udc" />
     <!-- Hardware -->
-    <project path="vendor/hardware/xiaomi" name="android_vendor_hardware_xiaomi" remote="statix" revision="tm" />
+    <project path="vendor/hardware/xiaomi" name="android_vendor_hardware_xiaomi" remote="statix" revision="udc" />
     <!-- Prebuilt kernel -->
     <project path="device/xiaomi/venus-kernel" name="platform_device_xiaomi_venus-kernel" remote="venus-dev" />
     <!-- Proprietary files -->
