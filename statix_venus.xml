@@ -17,6 +17,6 @@
     <!-- Proprietary files -->
     <project path="vendor/xiaomi/venus" name="proprietary_vendor_xiaomi_venus" remote="venus-dev" />
     <project path="vendor/xiaomi/sm8350-common" name="proprietary_vendor_xiaomi_sm8350-common" remote="venus-dev" />
-    <project path="vendor/xiaomi/venus-firmware" name="firmware/venus" remote="stx-gitlab" revision="tm" /> 
+    <project path="vendor/xiaomi/venus-firmware" name="ralph20060412/android_vendor_xiaomi_venus-firmware" remote="gitea" revision="udc" /> 
     
 </manifest>
