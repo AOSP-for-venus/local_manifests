@@ -2,7 +2,7 @@
 <manifest>
 
     <!-- Remotes -->
-    <remote name="venus-dev" revision="udc" fetch="https://github.com/AOSP-for-venus/" />
+    <remote name="venus-dev" revision="vic" fetch="https://github.com/AOSP-for-venus/" />
     <remote name="stx-gitlab" revision="udc" fetch="https://gitlab.com/StatiXOS" />
 
     <!-- Device trees -->
@@ -12,7 +12,7 @@
     <!-- Google Camera mod -->
     <project path="vendor/gcam" name="android_vendor_gcam" remote="stx-gitlab" revision="udc" />
     <!-- Hardware -->
-    <project path="vendor/hardware/xiaomi" name="android_vendor_hardware_xiaomi" remote="venus-dev" />
+    <project path="vendor/hardware/xiaomi" name="android_vendor_hardware_xiaomi" remote="venus-dev" revision="udc" />
     <!-- Prebuilt kernel -->
     <project path="device/xiaomi/venus-kernel" name="platform_device_xiaomi_venus-kernel" remote="venus-dev" />
     <!-- Proprietary files -->
