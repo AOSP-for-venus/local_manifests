@@ -3,20 +3,19 @@
 
     <!-- Remotes -->
     <remote name="venus-dev" revision="vic" fetch="https://github.com/AOSP-for-venus/" />
-    <remote name="stx-gitlab" revision="udc" fetch="https://gitlab.com/StatiXOS" />
 
     <!-- Device trees -->
     <project path="device/xiaomi/venus" name="platform_device_xiaomi_venus" remote="venus-dev" />
     <project path="device/xiaomi/miuicamera-venus" name="platform_device_xiaomi_miuicamera-venus" remote="venus-dev" />
     <project path="device/xiaomi/sm8350-common" name="platform_device_xiaomi_sm8350-common" remote="venus-dev" />
     <!-- Hardware -->
-    <project path="vendor/hardware/xiaomi" name="android_vendor_hardware_xiaomi" remote="venus-dev" />
+    <project path="vendor/hardware/xiaomi" name="android_vendor_hardware_xiaomi" remote="statix" revision="vic" />
     <!-- Prebuilt kernel -->
     <project path="device/xiaomi/venus-kernel" name="platform_device_xiaomi_venus-kernel" remote="venus-dev" />
     <!-- Proprietary files -->
     <project path="vendor/xiaomi/venus" name="proprietary_vendor_xiaomi_venus" remote="venus-dev" />
     <project path="vendor/xiaomi/miuicamera-venus" name="ralph20060412/proprietary_vendor_xiaomi_miuicamera-venus" remote="gitea" revision="vic" />
     <project path="vendor/xiaomi/sm8350-common" name="proprietary_vendor_xiaomi_sm8350-common" remote="venus-dev" />
-    <project path="vendor/xiaomi/venus-firmware" name="ralph20060412/android_vendor_xiaomi_venus-firmware" remote="gitea" revision="udc" /> 
+    <project path="vendor/xiaomi/venus-firmware" name="ralph20060412/android_vendor_xiaomi_venus-firmware" remote="gitea" revision="vic" /> 
     
 </manifest>
