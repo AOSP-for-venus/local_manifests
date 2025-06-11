@@ -5,11 +5,11 @@
     <remote name="venus-dev" revision="vic" fetch="https://github.com/AOSP-for-venus/" />
 
     <!-- Device trees -->
-    <project path="device/xiaomi/venus" name="platform_device_xiaomi_venus" remote="venus-dev" />
+    <project path="device/xiaomi/venus" name="platform_device_xiaomi_venus" remote="venus-dev" revision="bp2a" />
     <project path="device/xiaomi/miuicamera-venus" name="platform_device_xiaomi_miuicamera-venus" remote="venus-dev" />
     <project path="device/xiaomi/sm8350-common" name="platform_device_xiaomi_sm8350-common" remote="venus-dev" />
     <!-- Hardware -->
-    <project path="vendor/hardware/xiaomi" name="android_vendor_hardware_xiaomi" remote="statix" revision="vic" />
+    <project path="vendor/hardware/xiaomi" name="android_vendor_hardware_xiaomi" remote="venus-dev" revision="bp2a" />
     <!-- Prebuilt kernel -->
     <project path="device/xiaomi/venus-kernel" name="platform_device_xiaomi_venus-kernel" remote="venus-dev" />
     <!-- Proprietary files -->
