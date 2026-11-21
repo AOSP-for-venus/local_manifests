@@ -11,7 +11,7 @@
     <!-- Hardware -->
     <project path="vendor/hardware/xiaomi" name="android_vendor_hardware_xiaomi" remote="venus-dev" />
     <!-- Prebuilt kernel -->
-    <project path="device/xiaomi/venus-kernel" name="platform_device_xiaomi_venus-kernel" remote="venus-dev" />
+    <project path="device/xiaomi/venus-kernel" name="platform_device_xiaomi_venus-kernel" remote="venus-dev" revision="cb" />
     <!-- Proprietary files -->
     <project path="vendor/xiaomi/venus" name="proprietary_vendor_xiaomi_venus" remote="venus-dev" />
     <project path="vendor/xiaomi/miuicamera-venus" name="ralph20060412/proprietary_vendor_xiaomi_miuicamera-venus" remote="gitea" revision="bak" />
